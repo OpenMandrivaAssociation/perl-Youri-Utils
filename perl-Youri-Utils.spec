@@ -1,7 +1,7 @@
 %define module	Youri-Utils
 %define name	perl-%{module}
 %define version 0.2.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -16,6 +16,7 @@ Buildrequires:	perl-devel
 %endif
 BuildRequires:  perl(UNIVERSAL::require)
 BuildRequires:  perl-version
+Requires:       perl-version
 Buildarch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
