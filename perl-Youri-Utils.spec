@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.2.1
-Release:	7
+Release:	8
 Summary:	Youri shared functions
 License:	GPL or Artistic
 Group:		Development/Other
